@@ -8,7 +8,9 @@ public class Control : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
+        if (GameManager.instance.state == false) return;
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
         {
             if (transform.position.x <= -1.0f) return;
 
@@ -23,13 +25,13 @@ public class Control : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if(collision.gameObject.tag == "Obstacle")
+        if (other.gameObject.tag == "Obstacle")
         {
             animator.SetTrigger("Death");
             GameManager.instance.speed = 0;
+            GameManager.instance.state = false;
         }
-
     }
 }

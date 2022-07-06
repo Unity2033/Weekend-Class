@@ -8,18 +8,17 @@ public class GameManager : MonoBehaviour
     // static은 데이터 영역에 저장됩니다.
 
     public static GameManager instance;
+
     public float speed;
+    public bool state;
 
     void Start()
     {
         if(instance == null)
         {
             instance = this;
-        }  
-    }
+        }
 
-    void Update()
-    {
-        
+        state = true;
     }
 }
