@@ -14,6 +14,7 @@ public class Control : MonoBehaviour
         {
             if (transform.position.x <= -1.0f) return;
 
+            SoundControl.Instance.SoundCall("Move");
             transform.position += new Vector3(-1.5f, 0, 0);
         }
 
@@ -21,6 +22,7 @@ public class Control : MonoBehaviour
         {
             if (transform.position.x >= 1.0f) return;
 
+            SoundControl.Instance.SoundCall("Move");
             transform.position += new Vector3(1.5f, 0, 0);
         }
     }
@@ -32,6 +34,7 @@ public class Control : MonoBehaviour
             animator.SetTrigger("Death");
             GameManager.instance.speed = 0;
             GameManager.instance.state = false;
+            SoundControl.Instance.SoundCall("Collision");
         }
     }
 }

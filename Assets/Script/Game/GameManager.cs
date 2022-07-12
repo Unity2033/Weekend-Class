@@ -20,5 +20,30 @@ public class GameManager : MonoBehaviour
         }
 
         state = true;
+
+        StartCoroutine(SpeedIncrease());
     }
+
+    IEnumerator SpeedIncrease()
+    {
+        // while 조건이 참이라면 무한 반복하는 반복문입니다.
+        while(state)
+        {
+            // 1초 동안 대기합니다.
+            yield return new WaitForSeconds(1f);
+            speed++;
+
+            if(state == false)
+            {
+                speed = 0;
+            }
+
+            if(speed >= 50)
+            {
+                speed = 50;
+            }
+        }
+    }
+
+
 }

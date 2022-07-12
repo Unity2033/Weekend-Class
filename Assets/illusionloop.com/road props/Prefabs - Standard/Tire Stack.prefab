@@ -46,7 +46,6 @@ GameObject:
   - component: {fileID: 4772685895804636}
   - component: {fileID: 33797861895023336}
   - component: {fileID: 23275132240480144}
-  - component: {fileID: 65465205210512688}
   - component: {fileID: 205171735911737652}
   m_Layer: 0
   m_Name: Tire (1)
@@ -120,19 +119,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &65465205210512688
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186018649981318}
-  m_Material: {fileID: 13400000, guid: 171936b2342bb5d42897f44ff586e49b, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.49491072, y: 0.20000002, z: 0.4898733}
-  m_Center: {x: 0.000000007450581, y: 0, z: -0.005063534}
 --- !u!205 &205171735911737652
 LODGroup:
   m_ObjectHideFlags: 0
@@ -163,7 +149,6 @@ GameObject:
   - component: {fileID: 4874937429471440}
   - component: {fileID: 33390686438528342}
   - component: {fileID: 23115734985950314}
-  - component: {fileID: 65755793101176178}
   - component: {fileID: 205820659162535676}
   m_Layer: 0
   m_Name: Tire
@@ -237,19 +222,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &65755793101176178
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1204492179367614}
-  m_Material: {fileID: 13400000, guid: 171936b2342bb5d42897f44ff586e49b, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.49491072, y: 0.20000002, z: 0.4898733}
-  m_Center: {x: 0.000000007450581, y: 0, z: -0.005063534}
 --- !u!205 &205820659162535676
 LODGroup:
   m_ObjectHideFlags: 0
@@ -280,7 +252,6 @@ GameObject:
   - component: {fileID: 4672789933662556}
   - component: {fileID: 33223877941949060}
   - component: {fileID: 23086300147356054}
-  - component: {fileID: 65862015264363090}
   - component: {fileID: 205072438254672492}
   m_Layer: 0
   m_Name: Tire (3)
@@ -354,19 +325,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &65862015264363090
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1714675416551324}
-  m_Material: {fileID: 13400000, guid: 171936b2342bb5d42897f44ff586e49b, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.49491072, y: 0.20000002, z: 0.4898733}
-  m_Center: {x: 0.000000007450581, y: 0, z: -0.005063534}
 --- !u!205 &205072438254672492
 LODGroup:
   m_ObjectHideFlags: 0
@@ -397,7 +355,6 @@ GameObject:
   - component: {fileID: 4839584767844806}
   - component: {fileID: 33558189086124350}
   - component: {fileID: 23932232527679704}
-  - component: {fileID: 65647260767929832}
   - component: {fileID: 205512509453878526}
   m_Layer: 0
   m_Name: Tire (2)
@@ -471,19 +428,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &65647260767929832
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1766034796083556}
-  m_Material: {fileID: 13400000, guid: 171936b2342bb5d42897f44ff586e49b, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.49491072, y: 0.20000002, z: 0.4898733}
-  m_Center: {x: 0.000000007450581, y: 0, z: -0.005063534}
 --- !u!205 &205512509453878526
 LODGroup:
   m_ObjectHideFlags: 0

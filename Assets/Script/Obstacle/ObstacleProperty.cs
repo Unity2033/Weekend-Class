@@ -6,7 +6,6 @@ public class ObstacleProperty : MonoBehaviour
 {
     private int value;
     public GameObject [] tireStack;
-    public Animator [] animator;
 
     void Start()
     {
@@ -28,15 +27,8 @@ public class ObstacleProperty : MonoBehaviour
 
         if (transform.position.z <= -10f)
         {
-            Destroy(gameObject);
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Character")
-        {
-            animator[value].enabled = true;         
+            gameObject.transform.position = new Vector3(0, 0.1f, 7.5f);
+            ObjectPool.Instance.InsertQueue(gameObject);
         }
     }
 }
