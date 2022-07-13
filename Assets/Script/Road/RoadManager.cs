@@ -33,7 +33,7 @@ public class RoadManager : MonoBehaviour
         }
 
         if (roadList[lastRoad].transform.position.z <= -20)
-        {    
+        {
             firstRoad = lastRoad - 1;
 
             if(firstRoad < 0)
