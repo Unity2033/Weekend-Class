@@ -11,39 +11,27 @@ public class GameManager : MonoBehaviour
 
     public float speed;
     public bool state;
+    public int coin;
 
     void Start()
     {
-        if(instance == null)
+        Load();
+
+        if (instance == null)
         {
             instance = this;
         }
 
         state = true;
-
-        StartCoroutine(SpeedIncrease());
     }
 
-    IEnumerator SpeedIncrease()
+    public void Save()
     {
-        // while 조건이 참이라면 무한 반복하는 반복문입니다.
-        while(state)
-        {
-            // 1초 동안 대기합니다.
-            yield return new WaitForSeconds(1f);
-            speed++;
-
-            if(state == false)
-            {
-                speed = 0;
-            }
-
-            if(speed >= 50)
-            {
-                speed = 50;
-            }
-        }
+        PlayerPrefs.SetInt("Coin", coin);
     }
 
-
+    public void Load()
+    {
+        coin = PlayerPrefs.GetInt("Coin");
+    }
 }

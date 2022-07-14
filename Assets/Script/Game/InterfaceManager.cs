@@ -1,11 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class InterfaceManager : MonoBehaviour
 {
+    public static InterfaceManager instance;
+
     public GameObject window;
+    public Text coinText;
+
+    private void Start()
+    {
+        instance = this;
+    }
+
+    private void Update()
+    {
+        coinText.text = "$ " + GameManager.instance.coin.ToString();
+    }
 
     public void RestartButton()
     {

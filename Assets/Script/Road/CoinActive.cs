@@ -13,6 +13,8 @@ public class CoinActive : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (GameManager.instance.state == false) return;
+
         if (other.gameObject.tag == "Character")
         {
             for (int i = 0; i < coin.Length; i++)
@@ -24,13 +26,13 @@ public class CoinActive : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        if (GameManager.instance.state == false) return;
+
+        GameManager.instance.speed += 2;
+
         if (other.gameObject.tag == "Character")
         {
             coin[Random.Range(0, 3)].SetActive(true);
         }
     }
-
-  
-
-
 }

@@ -18,17 +18,4 @@ public class ObstacleProperty : MonoBehaviour
        
         tireStack[value].SetActive(true);     
     }
-
-    void Update()
-    {
-        if (GameManager.instance.state == false) return;
-
-        transform.Translate(Vector3.back * GameManager.instance.speed * Time.deltaTime);
-
-        if (transform.position.z <= -10f)
-        {
-            gameObject.transform.position = new Vector3(0, 0.1f, 7.5f);
-            ObjectPool.Instance.InsertQueue(gameObject);
-        }
-    }
 }

@@ -29,7 +29,7 @@ public class SoundControl : MonoBehaviour
                 audioSource.clip = audioClip[1];
                 audioSource.Play();
                 break;
-            case "Level Up":
+            case "Coin":
                 audioSource.clip = audioClip[2];
                 audioSource.Play();
                 break;
