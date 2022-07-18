@@ -28,4 +28,13 @@ public class DataManager : MonoBehaviour
         }
     }
 
+    public void Purchase(int index)
+    {
+        if (GameManager.instance.coin >= information[index].price)
+        {
+            GameManager.instance.coin -= information[index].price;
+            GameManager.instance.Save();
+        }
+    }
+
 }
