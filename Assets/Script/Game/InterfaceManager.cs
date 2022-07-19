@@ -29,7 +29,7 @@ public class InterfaceManager : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-        Appliaction.Quit();
+        Application.Quit();
 #endif
     }
    

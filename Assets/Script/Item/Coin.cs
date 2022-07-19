@@ -20,7 +20,7 @@ public class Coin : MonoBehaviour
         }
     }
 
-    // ���� ������Ʈ�� ��Ȱ��ȭ �Ǿ��� �� ȣ��Ǵ� �Լ��Դϴ�.
+    // 게임 오브젝트가 비활성화 되었을 때 호출되는 함수입니다.
     private void OnDisable()
     {
         Invoke("Delay", 1f);

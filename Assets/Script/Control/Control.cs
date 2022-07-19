@@ -5,7 +5,21 @@ using UnityEngine;
 public class Control : MonoBehaviour
 {
     public Animator animator;
- 
+    public GameObject [] item;
+
+    private void Start()
+    {
+        if(GameManager.instance.hat > 0)
+        {
+            item[0].SetActive(true);
+        }
+        
+        if(GameManager.instance.rod > 0)
+        {
+            item[1].SetActive(true);
+        }
+    }
+
     void Update()
     {
         if (GameManager.instance.state == false) return;
