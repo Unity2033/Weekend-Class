@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
+    private Animator animator;
     [SerializeField] int count;
 
     void Start()
     {
+        animator = GetComponent<Animator>();
+
         GameEvent.instance.onDoorEnter += OpenDoor;
         GameEvent.instance.onDoorExit += CloseDoor;
     }
@@ -15,13 +18,8 @@ public class Door : MonoBehaviour
     private void OpenDoor(int openCount)
     {
         if (openCount == count)
-        {
-            transform.position = new Vector3
-            (
-                transform.position.x,
-                3f,
-                transform.position.z
-            );
+        {      
+            animator.SetBool("Open",true);
         }
     }
 
@@ -29,12 +27,7 @@ public class Door : MonoBehaviour
     {
         if (closeCount == count)
         {
-            transform.position = new Vector3
-            (
-                transform.position.x,
-                1.0f,
-                transform.position.z
-            );
+            animator.SetBool("Open", false);
         }
     }
 }
