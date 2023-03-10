@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Question : MonoBehaviour
 {
-    string content = "CountDown";
+    string content = "Resource";
     int count = 0;
 
     void Start()
