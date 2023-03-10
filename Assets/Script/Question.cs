@@ -1,23 +1,20 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Question : MonoBehaviour
 {
-    string content = "CountDown";
+    int [] data = new int[] { 4, 1, 2, 3, 9, 7, 8, 6, 10, 5};
+
+    string content = "Single";
     int count = 0;
 
     void Start()
     {
-
-        for (int i = 0; i < content.Length; i++)
+        for(int i = 0; i < 10; i++)
         {
-            if (content[i] >= 'A' && content[i] <= 'Z')
-            {
-                count++;
-            }
-        }
-
-        Debug.Log(count);
+            Debug.Log(data[i]);
+        } 
     }
 }
