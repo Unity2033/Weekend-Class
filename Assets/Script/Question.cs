@@ -8,6 +8,7 @@ public class Question : MonoBehaviour
     int [] data = new int[] { 4, 1, 2, 3, 9, 7, 8, 6, 10, 5};
 
     string content = "Single";
+
     int count = 0;
 
     void Start()
