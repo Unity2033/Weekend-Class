@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class NotificationManager : MonoBehaviour
 {
-    [SerializeField] Text content;
+    [SerializeField] TextMeshProUGUI content;
 
     public static void NotificationWindow(string message)
     {
