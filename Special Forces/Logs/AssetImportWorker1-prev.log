@@ -1,0 +1,844 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Administrator/Desktop/Special Forces
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54690
+Successfully changed project path to: C:/Users/Administrator/Desktop/Special Forces
+C:/Users/Administrator/Desktop/Special Forces
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 117.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/Desktop/Special Forces/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009225 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 105.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Domain Reload Profiling:
+	ReloadAssembly (709ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (508ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008400 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\Special Forces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\Special Forces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 123.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1372ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (1023ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (542ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.1 KB). Loaded Objects now: 4501.
+Memory consumption went from 155.4 MB to 155.4 MB.
+Total: 4.525300 ms (FindLiveObjects: 0.445700 ms CreateObjectMapping: 0.439700 ms MarkObjects: 3.426900 ms  DeleteObjects: 0.211600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 115658.806269 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/up/02.png
+  artifactKey: Guid(4832fcdeba9646c29432cf69c81c4e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/up/02.png using Guid(4832fcdeba9646c29432cf69c81c4e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b748de412120ae80ec081c4babe19fdc') in 0.151909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/up/08.png
+  artifactKey: Guid(3342f1a2f2f74eb1b036671431af37c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/up/08.png using Guid(3342f1a2f2f74eb1b036671431af37c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d812db1bfde46642a174ae7c184f83') in 0.046332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/up/03.png
+  artifactKey: Guid(701da45780ad4042909d72a49213275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/up/03.png using Guid(701da45780ad4042909d72a49213275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f777176f102d33b2256c43f7b75196b') in 0.028171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/up/11.png
+  artifactKey: Guid(359f0145eda948b2a641f81f4119e5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/up/11.png using Guid(359f0145eda948b2a641f81f4119e5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04046343b47dba2c72d60aaae28814c6') in 0.025955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.174665 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/side/02.png
+  artifactKey: Guid(4463b87c161848fc959b52efb50e4810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/side/02.png using Guid(4463b87c161848fc959b52efb50e4810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b90c8ccc5adc111bb2b1227d36a9213') in 0.023320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/side/03.png
+  artifactKey: Guid(c6aab871e21f481e9d3f566fc5e9e31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/side/03.png using Guid(c6aab871e21f481e9d3f566fc5e9e31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf6e6e79e4a5b617cc452f6c828b09f') in 0.021882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/side/10.png
+  artifactKey: Guid(14fe5ffa1d0b447c824da603b71dce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/side/10.png using Guid(14fe5ffa1d0b447c824da603b71dce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f9c9beb2ed5237322c5d1db327d825') in 0.023429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/side/05.png
+  artifactKey: Guid(0d15cf06441f4926b829ba3b20a45ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/side/05.png using Guid(0d15cf06441f4926b829ba3b20a45ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e21c577915d39ebdbfcf81c26dba82') in 0.022711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/side/06.png
+  artifactKey: Guid(58ee1e044a0e4fd08883034a296d62ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/side/06.png using Guid(58ee1e044a0e4fd08883034a296d62ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933e8186cc2af0dc68261527f4da0213') in 0.021803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/side/04.png
+  artifactKey: Guid(0f2e2caca9ab4780a95f5cc37feb8c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/side/04.png using Guid(0f2e2caca9ab4780a95f5cc37feb8c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186b0c3d5ea88446b06b6657e1859cba') in 0.021870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.762353 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/down/02.png
+  artifactKey: Guid(2b95fcd3920b48e893365f50b6152e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/down/02.png using Guid(2b95fcd3920b48e893365f50b6152e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3729b6a51254ba7eb8c851421fd175ca') in 0.023767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/down/10.png
+  artifactKey: Guid(6e5db1f39dd742dab90a7b7bc2bef5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/down/10.png using Guid(6e5db1f39dd742dab90a7b7bc2bef5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0e2613ee802b89ee7d100974bcc485') in 0.021719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/down/03.png
+  artifactKey: Guid(52d0c1e118304f5e9e1bc39991f05959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/down/03.png using Guid(52d0c1e118304f5e9e1bc39991f05959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8325d68648cbabd09d48f69b63138eef') in 0.024643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/down/11.png
+  artifactKey: Guid(90673e0d93424960a216536bfa5dc313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/down/11.png using Guid(90673e0d93424960a216536bfa5dc313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f677be1cf16e00bf085f964c28248599') in 0.020427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/down/08.png
+  artifactKey: Guid(42a4e259474347ea97b193c162a8d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/down/08.png using Guid(42a4e259474347ea97b193c162a8d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3ae1d6ae990a89d7829a95e0b3f8fd') in 0.024807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/down/07.png
+  artifactKey: Guid(066291d17744468794d6b433704d05a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/slide/down/07.png using Guid(066291d17744468794d6b433704d05a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd4bbbe954c02a350cb90afd58f2351') in 0.024471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.943892 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/03.png
+  artifactKey: Guid(4bedb514a71e49f2acb9951559f130b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/03.png using Guid(4bedb514a71e49f2acb9951559f130b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e43f531ed79a5b6b86d022e5fee4b08') in 0.022994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/19.png
+  artifactKey: Guid(debca5247f7a4c23a2cc59ef8b7a60aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/19.png using Guid(debca5247f7a4c23a2cc59ef8b7a60aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674c64f9e388adf4bca7bf1f08c9de49') in 0.027954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/18.png
+  artifactKey: Guid(0b91e520ee394f00832315984b2e0079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/18.png using Guid(0b91e520ee394f00832315984b2e0079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087163d211e5d101feae5b9aeb48dc1e') in 0.039810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/17.png
+  artifactKey: Guid(cf8740f5b56d4d06b579643a21afee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/17.png using Guid(cf8740f5b56d4d06b579643a21afee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4304ec484957ba25bd1cdb792aeff13b') in 0.036767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/13.png
+  artifactKey: Guid(b78f02f27eae4ec582c8852238d09057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/13.png using Guid(b78f02f27eae4ec582c8852238d09057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77e2883e610b47f4040959f2f23ce08') in 0.034883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/07.png
+  artifactKey: Guid(ee37bcd07ab542df8bbb767e0e376130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/07.png using Guid(ee37bcd07ab542df8bbb767e0e376130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be60e587a4ccc591a2367874d3a4feaf') in 0.029921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/15.png
+  artifactKey: Guid(7f38305b88224c02b395f0098554db26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/15.png using Guid(7f38305b88224c02b395f0098554db26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9998c1863b7c4f8ac02db0e27aeecf12') in 0.038283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/08.png
+  artifactKey: Guid(dbbcd8679a464b5bb6c4570e31d8d264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/side/08.png using Guid(dbbcd8679a464b5bb6c4570e31d8d264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f436dfdcc741cf49508b55fccad2f8') in 0.030639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.989389 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/side/03.png
+  artifactKey: Guid(28992b7bae194538bacaa5a602362bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/side/03.png using Guid(28992b7bae194538bacaa5a602362bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e404bd8f830269becde0d4f99826308c') in 0.022983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/side/12.png
+  artifactKey: Guid(863496c9c8a349abb28ecf1d264d24ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/side/12.png using Guid(863496c9c8a349abb28ecf1d264d24ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f9e158e493995d13fea5f6b421bd93') in 0.024380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/side/11.png
+  artifactKey: Guid(093bca451e6643838a79abf6702da231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/side/11.png using Guid(093bca451e6643838a79abf6702da231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a396530cbf4d883d6b4f57fae1a9f2') in 0.027944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/side/05.png
+  artifactKey: Guid(3ca3d4e46c5947fa9dfb06006062c422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/side/05.png using Guid(3ca3d4e46c5947fa9dfb06006062c422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651e0317a7b78b21edd1906a79a6233e') in 0.034609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/side/04.png
+  artifactKey: Guid(0404af512179429a8337770cd77f8139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/side/04.png using Guid(0404af512179429a8337770cd77f8139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e74499fc5833c1fccf7e407360120f') in 0.026020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.918071 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/up/03.png
+  artifactKey: Guid(2caca5d22c1845f39aa0f7407ba60d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/up/03.png using Guid(2caca5d22c1845f39aa0f7407ba60d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4eb4ae756b7a5788a27b6a42e05c9a') in 0.023570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/up/14.png
+  artifactKey: Guid(1eb5a99bcec643a1a0ff1e32542bdcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/up/14.png using Guid(1eb5a99bcec643a1a0ff1e32542bdcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5fb14ce10c7d6e7bbe14e6137e7e68') in 0.027202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/up/06.png
+  artifactKey: Guid(ab7bda66a0c8461d8141856627d86d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/up/06.png using Guid(ab7bda66a0c8461d8141856627d86d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d9913315416169a4cce82c8e9b42bb') in 0.024990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/up/13.png
+  artifactKey: Guid(17341cf6761c43ab9e0836162424fd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/up/13.png using Guid(17341cf6761c43ab9e0836162424fd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c90ff88d2f9840ffe78eedf843fce3a') in 0.028775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/up/04.png
+  artifactKey: Guid(29717092b9a9440380d55944acd043ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/up/04.png using Guid(29717092b9a9440380d55944acd043ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c29f940cc8891bc6bacbb0a8e2b8b6') in 0.027073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.867536 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/down/03.png
+  artifactKey: Guid(c5ce835e4c774e8b8f810244d9ac8498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/down/03.png using Guid(c5ce835e4c774e8b8f810244d9ac8498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88edfff83e70f2a96fa09ccac790f749') in 0.025560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/down/13.png
+  artifactKey: Guid(1048ce29baca405595107df551d06dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/down/13.png using Guid(1048ce29baca405595107df551d06dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d479306a2a2ea4b28a044683b0d0b1') in 0.027747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/down/05.png
+  artifactKey: Guid(97c14b470ea848629e842b74794e4333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/down/05.png using Guid(97c14b470ea848629e842b74794e4333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffa4dc54ba7b8e5ec31f6c667cbe126') in 0.026442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/down/06.png
+  artifactKey: Guid(caee866ab6534391a39b62e50efd7910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/walk/down/06.png using Guid(caee866ab6534391a39b62e50efd7910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602034a72990cdf0398431bc0a75df3f') in 0.023544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.165479 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Tilemap/Deco_02.png
+  artifactKey: Guid(b43e2cfee85e46ac949918af14578a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Tilemap/Deco_02.png using Guid(b43e2cfee85e46ac949918af14578a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff0a623ee81739848b3ce6b545c8165') in 0.028415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Tilemap/Tilemap.png
+  artifactKey: Guid(83af4c0dcd9f45e0b1bae337e1573b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Tilemap/Tilemap.png using Guid(83af4c0dcd9f45e0b1bae337e1573b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30eff9549668b7a1d691dbe6df14e82a') in 0.303007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.755104 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/General/Bomb/03.png
+  artifactKey: Guid(94cab10ed56d4b569bb3f5c61b75b4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/General/Bomb/03.png using Guid(94cab10ed56d4b569bb3f5c61b75b4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff66e94f4585528c97e704e4c1bdab28') in 0.025595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/General/Bomb/13.png
+  artifactKey: Guid(271ab6cd5f264e56923d72968da61993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/General/Bomb/13.png using Guid(271ab6cd5f264e56923d72968da61993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2560bcb43ca529a96683146b6550cec6') in 0.031079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/General/Bomb/09.png
+  artifactKey: Guid(6c1d431e012d40b792aa881c2b1bb5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/General/Bomb/09.png using Guid(6c1d431e012d40b792aa881c2b1bb5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0401ec965c6d803f99fd267e3c80b775') in 0.032241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/General/Bomb/06.png
+  artifactKey: Guid(99613c7ee79844678036ff499adb0bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/General/Bomb/06.png using Guid(99613c7ee79844678036ff499adb0bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def94d3fcdea4e3502bd3a046140f3cb') in 0.029385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/General/Bomb/15.png
+  artifactKey: Guid(4c744bde68df4e04b33f39690e2ec0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/General/Bomb/15.png using Guid(4c744bde68df4e04b33f39690e2ec0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd28d56eac314ff7b109257ca0ebdcd') in 0.030322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/General/Bomb/14.png
+  artifactKey: Guid(1fcc5a6525704aae9115081cad4fa069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/General/Bomb/14.png using Guid(1fcc5a6525704aae9115081cad4fa069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826efb9803ecc6882ed6c0f03d6ba7c6') in 0.025256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.800772 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/General/Effects/Explosion/03.png
+  artifactKey: Guid(6dcb598ac4ee496c87199dba4e89d379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/General/Effects/Explosion/03.png using Guid(6dcb598ac4ee496c87199dba4e89d379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3ef2e6a7c601a78e29031a6583c575') in 0.026699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/General/Effects/Explosion/07.png
+  artifactKey: Guid(fe96686ba2784a7d844bb8a4ea503334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/General/Effects/Explosion/07.png using Guid(fe96686ba2784a7d844bb8a4ea503334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86ca3c30cae6926d160ae643d217c9e') in 0.029389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/General/Effects/Explosion/10.png
+  artifactKey: Guid(23cf1d4b18284f289fb53f76a70f7c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/General/Effects/Explosion/10.png using Guid(23cf1d4b18284f289fb53f76a70f7c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b120716301141e3ba477d987f8e8c0e') in 0.026247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/General/Effects/Explosion/04.png
+  artifactKey: Guid(dbe1f649a30643cea0e839a906dfedea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/General/Effects/Explosion/04.png using Guid(dbe1f649a30643cea0e839a906dfedea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598498cd14d97a3a388c6b11feb35093') in 0.026100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.788767 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_hold_up.prefab
+  artifactKey: Guid(47e4f348c4894fe095feeb5f85de1d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_hold_up.prefab using Guid(47e4f348c4894fe095feeb5f85de1d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e57ec001d32eda3686f1329845df6dd') in 0.074936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_idle_up.prefab
+  artifactKey: Guid(822c8560271f458da388fa51b01b413b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_idle_up.prefab using Guid(822c8560271f458da388fa51b01b413b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115adb156e6df48152b2a4a0e9062712') in 0.029772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/duck_up.prefab
+  artifactKey: Guid(ebd408e93abf480c803f607235a0ce18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/duck_up.prefab using Guid(ebd408e93abf480c803f607235a0ce18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcaa142302dafba82c0d52b7e86d77cb') in 0.034349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/hammer_attack_down.prefab
+  artifactKey: Guid(e1028b3f5d2e494d96f9235fe910ae92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/hammer_attack_down.prefab using Guid(e1028b3f5d2e494d96f9235fe910ae92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0073c6b0c78bb26675ed65654a0de476') in 0.087028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/slide_down.prefab
+  artifactKey: Guid(2b6d3483b520416bae591cdfccaeba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/slide_down.prefab using Guid(2b6d3483b520416bae591cdfccaeba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807ec2dd564d7fdd9dd61eaa80f2cc4e') in 0.032349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/jump_down.prefab
+  artifactKey: Guid(6a4aad03b07243e9ba5cd243de0e4c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/jump_down.prefab using Guid(6a4aad03b07243e9ba5cd243de0e4c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a9ebb74f4f2409ddcf203abfd46a6a') in 0.037014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_throw_up.prefab
+  artifactKey: Guid(da4551d8f4b64d2eac925befe56b930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_throw_up.prefab using Guid(da4551d8f4b64d2eac925befe56b930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1e375af94cd736899e455f58e82b93') in 0.035065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/sword_idle_down.prefab
+  artifactKey: Guid(2a332253c4314d9e94e057438109b1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/sword_idle_down.prefab using Guid(2a332253c4314d9e94e057438109b1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1484ae5c2e12d34b959c4fc5b84f1eee') in 0.024043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/jump_side.prefab
+  artifactKey: Guid(d57bfa8a670a4f749eb75d67accebbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/jump_side.prefab using Guid(d57bfa8a670a4f749eb75d67accebbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4e12ec669840f6bac93fc0b13c34d3') in 0.032968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/run_down.prefab
+  artifactKey: Guid(82513494e13e4eaba9a8d9bba0155522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/run_down.prefab using Guid(82513494e13e4eaba9a8d9bba0155522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10318bd5b467d6dc746e9dad6a9d84a') in 0.031485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/walk_up.prefab
+  artifactKey: Guid(3d59b5c879e84207a817278b73e6b646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/walk_up.prefab using Guid(3d59b5c879e84207a817278b73e6b646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904e9e0768a44452a24bc716ab32d9f3') in 0.032124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/walk_down.prefab
+  artifactKey: Guid(d26ff5f02dca4873a68dd384f05ca496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/walk_down.prefab using Guid(d26ff5f02dca4873a68dd384f05ca496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96ea6d266cf8387db0caa27ddf577b0') in 0.027652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/run_up.prefab
+  artifactKey: Guid(c024ea44a3f640d39f84454334b12958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/run_up.prefab using Guid(c024ea44a3f640d39f84454334b12958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2736ab2c88a717f1bcc8ffcbaf418be3') in 0.028595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/hammer_idle_side.prefab
+  artifactKey: Guid(8179e198a28e4bf783be1cee87b77072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/hammer_idle_side.prefab using Guid(8179e198a28e4bf783be1cee87b77072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be41a757f6cfa92fd6f91e196cb307c7') in 0.025553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/slide_side.prefab
+  artifactKey: Guid(3e0070bde80642d59118db4faee01114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/slide_side.prefab using Guid(3e0070bde80642d59118db4faee01114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af863b8cb6290da6e12e111211e67db6') in 0.029416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/bow_down.prefab
+  artifactKey: Guid(3a63838f7d0941d4a3c9a0a190cc286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/bow_down.prefab using Guid(3a63838f7d0941d4a3c9a0a190cc286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc929067fd5566b8943bc367b7aa03a') in 0.028827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/hammer_attack_side.prefab
+  artifactKey: Guid(876c6e74fbdb45d4bcd95e5ebc8410a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/hammer_attack_side.prefab using Guid(876c6e74fbdb45d4bcd95e5ebc8410a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f910f4d19f717d58c4c59a4e140bcc') in 0.069218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/bow_side.prefab
+  artifactKey: Guid(d0051fb6fb8246a6b721e0043681fe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/bow_side.prefab using Guid(d0051fb6fb8246a6b721e0043681fe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4c54b12891c917a4ce8bf93d86ebf1') in 0.027903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_walk_side.prefab
+  artifactKey: Guid(48fa1b934b6f4811be9d7391029ebe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_walk_side.prefab using Guid(48fa1b934b6f4811be9d7391029ebe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6c70b43deb494cbaedd96f65f8105c') in 0.061135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/sword_attack_up.prefab
+  artifactKey: Guid(e0fd852a6d824f568f0b73360986d1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/sword_attack_up.prefab using Guid(e0fd852a6d824f568f0b73360986d1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8d9a24d5427f8f971bcbfaa5dde6f0') in 0.052149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_walk_up.prefab
+  artifactKey: Guid(5af27cfeed664ab5bf5d45f09e8c83f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_walk_up.prefab using Guid(5af27cfeed664ab5bf5d45f09e8c83f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e085987d52ddbc0ba84e421821eca93b') in 0.058517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/sword_idle_up.prefab
+  artifactKey: Guid(8fb08c3029fe47eda1c9fb3f11c67573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/sword_idle_up.prefab using Guid(8fb08c3029fe47eda1c9fb3f11c67573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5560b99484720a15ffd6fc1cdbe8b3f') in 0.028281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_idle_down.prefab
+  artifactKey: Guid(a0ad5f57d3e643ecbc49ad0d17e2ab53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_idle_down.prefab using Guid(a0ad5f57d3e643ecbc49ad0d17e2ab53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b394f48cd4e73f0bafafb82512a8233d') in 0.034124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/gun_walk_up.prefab
+  artifactKey: Guid(bbee44c1f535429dbbe3d1596a088223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/gun_walk_up.prefab using Guid(bbee44c1f535429dbbe3d1596a088223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dfebb8a1707e77cbac35fbb8741b2a') in 0.043566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Character/hammer_idle_up.prefab
+  artifactKey: Guid(2c39c5a44273481d96228c2c7170877a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Character/hammer_idle_up.prefab using Guid(2c39c5a44273481d96228c2c7170877a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aebb9ffe511275e4c3580d4428d42e8') in 0.026460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.626207 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Objects/bullet_arrow.prefab
+  artifactKey: Guid(7bac0515edaf45ec9fb84dfdc54b530a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Objects/bullet_arrow.prefab using Guid(7bac0515edaf45ec9fb84dfdc54b530a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f748a47f439e8b0bed9461496b60f4') in 0.039082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Objects/Deco_01.prefab
+  artifactKey: Guid(583db09d346646bba4a09e83d4ea5982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Objects/Deco_01.prefab using Guid(583db09d346646bba4a09e83d4ea5982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a4b2f67e0ee6ad802bebe1fdec8870') in 0.022481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Objects/bullet_rifle.prefab
+  artifactKey: Guid(3fd6867c092c40c8a813c95fa76f0e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Objects/bullet_rifle.prefab using Guid(3fd6867c092c40c8a813c95fa76f0e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab8e3420eeafdcb935dda96c6834f7b') in 0.020743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.095659 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_1.asset
+  artifactKey: Guid(a8c9cd9933e7401e850b5c6877816e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_1.asset using Guid(a8c9cd9933e7401e850b5c6877816e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e1b4eeddaaa0868be4e38a08101c7b') in 0.032549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_20.asset
+  artifactKey: Guid(7afd8e13a2814f1abc7429c23c78fce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_20.asset using Guid(7afd8e13a2814f1abc7429c23c78fce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033cb1d662d3b6fee51058d17e17aaf9') in 0.023873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_26.asset
+  artifactKey: Guid(2a1b2b4147df4e469616f584e9ef5ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_26.asset using Guid(2a1b2b4147df4e469616f584e9ef5ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fb83a3fd4f1f56ff27805d2618a078') in 0.022898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_50.asset
+  artifactKey: Guid(8d53ab19abd649df81ae8e710ed0318a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_50.asset using Guid(8d53ab19abd649df81ae8e710ed0318a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06445dbb424fd65346df095637a7450b') in 0.026848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_49.asset
+  artifactKey: Guid(3a2860e35e254770b0e9b5fda5140f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_49.asset using Guid(3a2860e35e254770b0e9b5fda5140f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94be4e6a03014d9c428d824e832bd749') in 0.023098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_17.asset
+  artifactKey: Guid(5e257a2dd9754c4c97e9f2db0da5a8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_17.asset using Guid(5e257a2dd9754c4c97e9f2db0da5a8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1fdbea53a9374af2ef70b7a41a1066') in 0.022538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_44.asset
+  artifactKey: Guid(9f3b498eee8f4179ae43908dc66f60a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_44.asset using Guid(9f3b498eee8f4179ae43908dc66f60a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3aa04d84045db0516b0f05d27a6ca42') in 0.024299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_53.asset
+  artifactKey: Guid(4c7de3a536914c32865dd29665f093b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_53.asset using Guid(4c7de3a536914c32865dd29665f093b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d955b77821d8e2d78824e6a40afa40f') in 0.031623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_16.asset
+  artifactKey: Guid(1f8a36e3f88347b8b785f6fbc3f7561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_16.asset using Guid(1f8a36e3f88347b8b785f6fbc3f7561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4f02405a570e2d34f4b2096e0231ca') in 0.028790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_28.asset
+  artifactKey: Guid(b4df6f988d6945659e7576cd08074f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_28.asset using Guid(b4df6f988d6945659e7576cd08074f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec05e1c0dc215261c2c0d131a038132') in 0.029661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_32.asset
+  artifactKey: Guid(17bad41c634a49da8b440fe3e427b821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_32.asset using Guid(17bad41c634a49da8b440fe3e427b821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9deee42edeb6d89d9fe893122bd692') in 0.030462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_12.asset
+  artifactKey: Guid(f767d0cfd79d4473a81e64716887e870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_12.asset using Guid(f767d0cfd79d4473a81e64716887e870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f5d9346bc01c13e70291c6347907f3') in 0.031525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_45.asset
+  artifactKey: Guid(0e9196ba373843b9976a4cf20b59e888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_45.asset using Guid(0e9196ba373843b9976a4cf20b59e888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585eac051d618f3687297743eab7ad69') in 0.027792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_54.asset
+  artifactKey: Guid(bc29df9d5f1b4dab903dc610246e5b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_54.asset using Guid(bc29df9d5f1b4dab903dc610246e5b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb8d9dd72e83f047f8626cb58a954a1') in 0.266489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_23.asset
+  artifactKey: Guid(c0d177cd1171487dad0fe01ed0c56492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_23.asset using Guid(c0d177cd1171487dad0fe01ed0c56492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff196f5c5f6e9a844da753058afbb23d') in 0.032815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_8.asset
+  artifactKey: Guid(86c7361f29564c93a71431223d535cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_8.asset using Guid(86c7361f29564c93a71431223d535cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b5fdf151eec332165108860ec016a9') in 0.029907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_27.asset
+  artifactKey: Guid(bc25acdbfb3442ea92a44b760e2aa4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_27.asset using Guid(bc25acdbfb3442ea92a44b760e2aa4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af2e4de5ceb06da061942e17702b024') in 0.026073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_7.asset
+  artifactKey: Guid(9fd1800eded34f878ce7033b47e7e449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_7.asset using Guid(9fd1800eded34f878ce7033b47e7e449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8c0c696b1384a69d357ef9d7b94dcb') in 0.027987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_48.asset
+  artifactKey: Guid(f5121d73a4ae4a47a0524efdf5de1b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_48.asset using Guid(f5121d73a4ae4a47a0524efdf5de1b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a76da23469d5f1de9734262792e2cb') in 0.030063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_5.asset
+  artifactKey: Guid(6144ee4c9b81453a92400daf1364680f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_5.asset using Guid(6144ee4c9b81453a92400daf1364680f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a4d8e7130222e24a87f35edea54fb8') in 0.029022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_34.asset
+  artifactKey: Guid(6096fb37911a46f096cb2d4713d4c261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_34.asset using Guid(6096fb37911a46f096cb2d4713d4c261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eae4f7e9732bf7ec35731067e53c18d') in 0.036228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.369530 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/03.png
+  artifactKey: Guid(2a00ca923fc34fe4bc12a5c3aed555f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/03.png using Guid(2a00ca923fc34fe4bc12a5c3aed555f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d901155d48620bccc8420023ec8a5b') in 0.021958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/13.png
+  artifactKey: Guid(0d53d91be1c2405a86fa4abd31b4d4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/13.png using Guid(0d53d91be1c2405a86fa4abd31b4d4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a512104cab30e02173322523106c92') in 0.020910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/06.png
+  artifactKey: Guid(a96f75d138554b398c595023bc1f6563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/06.png using Guid(a96f75d138554b398c595023bc1f6563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afe4478622611bd16094c0c91213254') in 0.024483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/16.png
+  artifactKey: Guid(d4ead32726e543d0859ea437b40438a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/16.png using Guid(d4ead32726e543d0859ea437b40438a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9484a9f9d65fae27bcfad82609ab45') in 0.024195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/04.png
+  artifactKey: Guid(9b9abc64eacc491b86dfe2ac0003bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/04.png using Guid(9b9abc64eacc491b86dfe2ac0003bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9608d462eb1fd42aa1076f9f673696be') in 0.024080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/14.png
+  artifactKey: Guid(a11b597445b14eb3b0e646880536a1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/14.png using Guid(a11b597445b14eb3b0e646880536a1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc50aef93182b21425133764758f0d6') in 0.023393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/10.png
+  artifactKey: Guid(bd9256b8dd454bfb8774e60a64773b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/up/10.png using Guid(bd9256b8dd454bfb8774e60a64773b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3128cd07bfa50af37a08c37c555902b2') in 0.022582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.845747 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/03.png
+  artifactKey: Guid(82ffad24c6e24652b9a46f330e3d2356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/03.png using Guid(82ffad24c6e24652b9a46f330e3d2356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6b50a5a47949e7095e27d317834e31') in 0.020754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/14.png
+  artifactKey: Guid(79363507da254783b48c41142e566d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/14.png using Guid(79363507da254783b48c41142e566d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137eedb8ffd675bf58a7eed067d875e6') in 0.023947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/06.png
+  artifactKey: Guid(8be645a5255e42199a144f6c8f410373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/06.png using Guid(8be645a5255e42199a144f6c8f410373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dae78ee622bdecadf3f6e8a9c85460f') in 0.024172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/04.png
+  artifactKey: Guid(02e3db5a54f24f7e9a998965d2be29c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/04.png using Guid(02e3db5a54f24f7e9a998965d2be29c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74536c127c89614ec3414dc98bdfbba') in 0.020225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/05.png
+  artifactKey: Guid(4aaa03da07e349ed88f707ecf6e48f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/05.png using Guid(4aaa03da07e349ed88f707ecf6e48f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d035e51853554fa842ea224e5b38fa') in 0.022522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/07.png
+  artifactKey: Guid(e5967d7251274c00be22b6f665752fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/07.png using Guid(e5967d7251274c00be22b6f665752fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed017e2887e30c83e455af3e2fdadb69') in 0.027944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/08.png
+  artifactKey: Guid(4d275fd6e0f14372b9b363a649b955cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Character - Astronaut/Variant A/Sprites/Character/idle/down/08.png using Guid(4d275fd6e0f14372b9b363a649b955cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a1c7605af2236399b3c1582245d57f') in 0.024373 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
