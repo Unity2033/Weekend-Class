@@ -16,6 +16,8 @@ public class Character : MonoBehaviour
     [SerializeField] Vector2 direction;
     [SerializeField] Material flashMaterial;
 
+    private WaitForSeconds waitForSeconds = new WaitForSeconds(0.125f);
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -29,6 +31,11 @@ public class Character : MonoBehaviour
     {
         direction.x = Input.GetAxisRaw("Horizontal");
         direction.y = Input.GetAxisRaw("Vertical");
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            StartCoroutine(Flash());
+        }
     }
 
     private void FixedUpdate()
@@ -72,12 +79,12 @@ public class Character : MonoBehaviour
     }
 
     // 코루틴 함수 Flash
+    public IEnumerator Flash()
+    {
+        spriteRenderer.material = flashMaterial;
 
-    // 재질 정보를 Flash Material로 교체한다.
+        yield return waitForSeconds;
 
-    // 0.125f 후에...
-
-    // 재질 정보를 origin Material로 교체합니다.
-
-
+        spriteRenderer.material = originMaterial;
+    }
 }

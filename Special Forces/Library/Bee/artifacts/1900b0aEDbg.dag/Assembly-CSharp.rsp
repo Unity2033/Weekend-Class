@@ -378,6 +378,8 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Character.cs"
+"Assets/Scripts/FollowCamera.cs"
+"Assets/Scripts/TimeManager.cs"
 -langversion:9.0
 
 /deterministic
