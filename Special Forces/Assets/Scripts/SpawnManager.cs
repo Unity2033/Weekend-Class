@@ -16,8 +16,11 @@ public class SpawnManager : MonoBehaviour
 
     public IEnumerator Spawn()
     {
-        yield return waitForSeconds;
+        while (true)
+        {
+            yield return waitForSeconds;
 
-        Instantiate(monsterPrefab, spawnPosition[Random.Range(0, spawnPosition.Length)]);
+            Instantiate(monsterPrefab, spawnPosition[Random.Range(0, spawnPosition.Length)]);
+        }
     }
 }
