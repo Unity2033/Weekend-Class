@@ -20,8 +20,8 @@ public abstract class Monster : MonoBehaviour
     [SerializeField] STATE state;
     [SerializeField] Vector2 direction;
     [SerializeField] Transform characterPosition;
+    [SerializeField] protected float attack; 
     [SerializeField] protected float speed = 100f;
-
 
     protected virtual void Start()
     {
@@ -65,6 +65,11 @@ public abstract class Monster : MonoBehaviour
         rigidbody2D.velocity = direction.normalized * speed * Time.fixedDeltaTime;
 
         InvertImage();
+    }
+
+    public void Damage()
+    {
+        characterPosition.GetComponent<Character>().OnHit(attack);
     }
 
     protected abstract void Attack();

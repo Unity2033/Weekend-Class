@@ -7,6 +7,7 @@ public class Bat : Monster
     protected override void Attack()
     {
         speed = 0;
+        attack = 10f;
 
         animator.SetBool("Attack", true);
     }

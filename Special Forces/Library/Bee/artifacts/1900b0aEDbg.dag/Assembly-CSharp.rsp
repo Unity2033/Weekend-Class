@@ -380,6 +380,8 @@
 "Assets/Scripts/Bat.cs"
 "Assets/Scripts/BinarySearch.cs"
 "Assets/Scripts/Character.cs"
+"Assets/Scripts/Crab.cs"
+"Assets/Scripts/Factory.cs"
 "Assets/Scripts/FollowCamera.cs"
 "Assets/Scripts/Monster.cs"
 "Assets/Scripts/SpawnManager.cs"

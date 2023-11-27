@@ -12,8 +12,10 @@ public class Character : MonoBehaviour
     private Material originMaterial;
     private SpriteRenderer spriteRenderer;
 
-    [SerializeField] float speed = 250;
     [SerializeField] Vector2 direction;
+    [SerializeField] float speed = 250;
+    [SerializeField] float health = 100;
+
     [SerializeField] Material flashMaterial;
 
     private WaitForSeconds waitForSeconds = new WaitForSeconds(0.125f);
@@ -31,11 +33,6 @@ public class Character : MonoBehaviour
     {
         direction.x = Input.GetAxisRaw("Horizontal");
         direction.y = Input.GetAxisRaw("Vertical");
-
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            StartCoroutine(Flash());
-        }
     }
 
     private void FixedUpdate()
@@ -45,6 +42,18 @@ public class Character : MonoBehaviour
         
         // 상태 전환 함수
         State();
+    }
+
+    public void OnHit(float damage)
+    {
+        health -= damage;
+
+        StartCoroutine(Flash());
+
+        if (health <= 0)
+        {
+            Debug.Log("Death");
+        }
     }
 
     public void Move()
