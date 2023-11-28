@@ -7,16 +7,19 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Character : MonoBehaviour
 {
+    private Weapon weapon;
     private Animator animator;
     private Rigidbody2D rigidbody2D;
     private Material originMaterial;
     private SpriteRenderer spriteRenderer;
 
+    [SerializeField] int weaponCount;
     [SerializeField] Vector2 direction;
     [SerializeField] float speed = 250;
     [SerializeField] float health = 100;
-
+    
     [SerializeField] Material flashMaterial;
+    [SerializeField] List<Weapon> weaponList;
 
     private WaitForSeconds waitForSeconds = new WaitForSeconds(0.125f);
 
@@ -33,6 +36,9 @@ public class Character : MonoBehaviour
     {
         direction.x = Input.GetAxisRaw("Horizontal");
         direction.y = Input.GetAxisRaw("Vertical");
+
+        // 무기 교체 함수
+        ChangeWeapon();
     }
 
     private void FixedUpdate()
@@ -42,6 +48,21 @@ public class Character : MonoBehaviour
         
         // 상태 전환 함수
         State();
+    }
+
+    public void ChangeWeapon()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            if (weaponCount >= weaponList.Count)
+            {
+                weaponCount = 0;
+            }
+
+            weapon = weaponList[weaponCount++];
+
+            weapon.Attack();
+        }
     }
 
     public void OnHit(float damage)
