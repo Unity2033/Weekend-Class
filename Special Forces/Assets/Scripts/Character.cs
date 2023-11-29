@@ -73,7 +73,7 @@ public class Character : MonoBehaviour
 
         if (health <= 0)
         {
-            Debug.Log("Death");
+            animator.Play("Die");
         }
     }
 

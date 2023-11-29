@@ -7,6 +7,7 @@ public enum STATE
 {
     WALK,
     ATTACK,
+    HIT,
     DIE
 }
 
@@ -16,11 +17,14 @@ public abstract class Monster : MonoBehaviour
     private Rigidbody2D rigidbody2D;
     private protected Animator animator;
     private SpriteRenderer spriteRenderer;
+    [SerializeField] private float power = 10;
 
     [SerializeField] STATE state;
     [SerializeField] Vector2 direction;
     [SerializeField] Transform characterPosition;
-    [SerializeField] protected float attack; 
+
+    [SerializeField] protected float attack;
+    [SerializeField] protected float health;
     [SerializeField] protected float speed = 100f;
 
     protected virtual void Start()
@@ -46,6 +50,8 @@ public abstract class Monster : MonoBehaviour
                 break;
             case STATE.ATTACK : Attack();
                 break;
+            case STATE.HIT :  
+                break;
             case STATE.DIE : Death(); 
                 break;
         }
@@ -70,6 +76,19 @@ public abstract class Monster : MonoBehaviour
     public void Damage()
     {
         characterPosition.GetComponent<Character>().OnHit(attack);
+    }
+
+    public IEnumerator OnHit(float damage)
+    {
+        state = STATE.HIT;
+
+        rigidbody2D.velocity = Vector2.zero;
+
+        rigidbody2D.AddForce(-direction * power, ForceMode2D.Force);
+
+        yield return new WaitForSeconds(1);
+
+        state = STATE.WALK;
     }
 
     protected abstract void Attack();

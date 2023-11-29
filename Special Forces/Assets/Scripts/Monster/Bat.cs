@@ -8,6 +8,7 @@ public class Bat : Monster
     {
         speed = 0;
         attack = 10f;
+        health = 75f;
 
         animator.SetBool("Attack", true);
     }

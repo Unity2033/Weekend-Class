@@ -8,6 +8,7 @@ public class Crab : Monster
     {
         speed = 0;
         attack = 15f;
+        health = 100f;
 
         animator.SetBool("Attack", true);
     }
