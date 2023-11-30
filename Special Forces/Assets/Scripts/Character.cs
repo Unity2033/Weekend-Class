@@ -21,8 +21,6 @@ public class Character : MonoBehaviour
     [SerializeField] Material flashMaterial;
     [SerializeField] List<Weapon> weaponList;
 
-    private WaitForSeconds waitForSeconds = new WaitForSeconds(0.125f);
-
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -113,7 +111,7 @@ public class Character : MonoBehaviour
     {
         spriteRenderer.material = flashMaterial;
 
-        yield return waitForSeconds;
+        yield return CoroutineCache.waitForSeconds(0.125f);
 
         spriteRenderer.material = originMaterial;
     }

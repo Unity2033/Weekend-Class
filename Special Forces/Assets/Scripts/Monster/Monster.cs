@@ -27,6 +27,8 @@ public abstract class Monster : MonoBehaviour
     [SerializeField] protected float health;
     [SerializeField] protected float speed = 100f;
 
+    [SerializeField] Sound sound = new Sound();
+
     protected virtual void Start()
     {
         initSpeed = speed;
@@ -84,9 +86,11 @@ public abstract class Monster : MonoBehaviour
 
         rigidbody2D.velocity = Vector2.zero;
 
+        AudioManager.instance.Sound(sound.audioClip[0]);
+
         rigidbody2D.AddForce(-direction * power, ForceMode2D.Force);
 
-        yield return new WaitForSeconds(1);
+        yield return CoroutineCache.waitForSeconds(0.25f);
 
         state = STATE.WALK;
     }

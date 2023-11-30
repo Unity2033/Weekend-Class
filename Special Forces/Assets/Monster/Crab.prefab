@@ -175,6 +175,9 @@ MonoBehaviour:
   attack: 0
   health: 0
   speed: 100
+  sound:
+    audioClip:
+    - {fileID: 8300000, guid: 26b4ccc679daa3847ab1853c1a1ffa15, type: 3}
 --- !u!1 &8379896906394886533
 GameObject:
   m_ObjectHideFlags: 0
