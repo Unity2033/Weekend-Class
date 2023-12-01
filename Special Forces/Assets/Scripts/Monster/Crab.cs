@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class Crab : Monster
 {
+    public void Start()
+    {
+        base.Start();
+
+        health = 100f;
+    }
+
     protected override void Attack()
     {
-        speed = 0;
         attack = 15f;
-        health = 100f;
 
         animator.SetBool("Attack", true);
     }
 
     protected override void Death()
     {
-        throw new System.NotImplementedException();
+        animator.Play(typeof(Crab) + " " + "Die");
     }
 }

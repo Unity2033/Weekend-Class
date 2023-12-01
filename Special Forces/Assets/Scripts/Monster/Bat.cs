@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class Bat : Monster
 {
+    public void Start()
+    {
+        base.Start();
+
+        health = 75f;
+    }
+
     protected override void Attack()
     {
-        speed = 0;
         attack = 10f;
-        health = 75f;
 
         animator.SetBool("Attack", true);
     }
 
     protected override void Death()
     {
-        Debug.Log("Die");
+        animator.Play(typeof(Bat) + " " + "Die");
     }
 }
