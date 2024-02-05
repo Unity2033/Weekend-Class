@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Fourth Class/Scenes/Fourth Game.unity
+- path: Assets/Game/Scenes/Mouse Example.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
