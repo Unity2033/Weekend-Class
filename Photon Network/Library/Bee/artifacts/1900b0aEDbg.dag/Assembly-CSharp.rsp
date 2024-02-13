@@ -386,6 +386,7 @@
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/Alarm.cs"
+"Assets/Scripts/ConnectServer.cs"
 "Assets/Scripts/PlayfabManager.cs"
 -langversion:9.0
 
