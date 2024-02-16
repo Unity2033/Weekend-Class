@@ -164,6 +164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e88128864695f414e903e3f742b9205d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  mouseX: 0
+  rotateSpeed: 100
+  direction: {x: 0, y: 0, z: 0}
+  temporaryCamera: {fileID: 3315742326062548469}
 --- !u!1 &3153994460832523385
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,7 +523,7 @@ GameObject:
   - component: {fileID: 2841418149996114434}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
