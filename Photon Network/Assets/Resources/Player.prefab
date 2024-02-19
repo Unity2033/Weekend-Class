@@ -387,6 +387,7 @@ GameObject:
   - component: {fileID: 7245400780525542429}
   - component: {fileID: 3899530947685815852}
   - component: {fileID: 9067598109577842467}
+  - component: {fileID: 8588195958044123481}
   m_Layer: 0
   m_Name: Nick Name Text
   m_TagString: Untagged
@@ -510,6 +511,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8588195958044123481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296437727236719257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef2789eb24ba3a47bd0dab5a3b37e05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 3315742326062548469}
+  nickName: {fileID: 9067598109577842467}
 --- !u!1 &8534372286898937649
 GameObject:
   m_ObjectHideFlags: 0

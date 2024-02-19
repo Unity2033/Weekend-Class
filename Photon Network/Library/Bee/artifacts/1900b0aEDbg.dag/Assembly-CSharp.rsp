@@ -385,14 +385,15 @@
 "Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs"
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
-"Assets/Scripts/Alarm.cs"
-"Assets/Scripts/ConnectServer.cs"
-"Assets/Scripts/GameManager.cs"
-"Assets/Scripts/Information.cs"
-"Assets/Scripts/NickName.cs"
-"Assets/Scripts/PhotonPlayer.cs"
-"Assets/Scripts/PlayfabManager.cs"
-"Assets/Scripts/RoomManager.cs"
+"Assets/Scripts/Manager/ConnectServer.cs"
+"Assets/Scripts/Manager/GameManager.cs"
+"Assets/Scripts/Manager/PlayfabManager.cs"
+"Assets/Scripts/Manager/RoomManager.cs"
+"Assets/Scripts/Player/CameraManager.cs"
+"Assets/Scripts/Player/NickName.cs"
+"Assets/Scripts/Player/PhotonPlayer.cs"
+"Assets/Scripts/UI/Alarm.cs"
+"Assets/Scripts/UI/Information.cs"
 -langversion:9.0
 
 /deterministic

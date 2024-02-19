@@ -6,6 +6,7 @@ using Photon.Pun;
 
 public class NickName : MonoBehaviourPunCallbacks
 {
+    [SerializeField] Camera playerCamera;
     [SerializeField] TextMeshProUGUI nickName;
 
     void Start()
@@ -15,6 +16,6 @@ public class NickName : MonoBehaviourPunCallbacks
 
     void Update()
     {
-        
+        transform.forward = playerCamera.transform.forward;
     }
 }
