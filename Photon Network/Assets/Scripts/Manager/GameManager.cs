@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviourPunCallbacks
 
         direction = direction * distance;
 
-        direction.y = 0;
+        direction.y = 1;
 
         return direction;
     }
