@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8875695067584791787}
   - component: {fileID: 5519159677716822518}
   - component: {fileID: 1637467944799133925}
+  - component: {fileID: 7852566229180362764}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -167,9 +168,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   mouseX: 0
-  rotateSpeed: 200
+  rotateSpeed: 1000
   direction: {x: 0, y: 0, z: 0}
   temporaryCamera: {fileID: 3315742326062548469}
+--- !u!114 &7852566229180362764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129655419707545254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c408e95a9fac034b89714f2495afad6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 3315742326062548469}
+  attack: 20
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &1310070399891906306
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,7 +828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentRotationX: 0
-  sensitivity: 10
+  sensitivity: 400
   scrollSpeed: 100
   cameraRotationLimit: 30
 --- !u!1001 &130394562824887641

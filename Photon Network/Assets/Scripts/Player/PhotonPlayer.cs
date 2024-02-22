@@ -28,11 +28,6 @@ public class PhotonPlayer : MonoBehaviourPun
 
     void Update()
     {
-        if (PhotonNetwork.IsMasterClient)
-        {
-            Debug.Log("Master Client");
-        }
-
         if (photonView.IsMine == false) return;
         
         Movement();

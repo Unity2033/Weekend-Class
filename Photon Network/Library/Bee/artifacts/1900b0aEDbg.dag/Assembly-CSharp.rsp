@@ -399,6 +399,7 @@
 "Assets/Scripts/Player/MouseManager.cs"
 "Assets/Scripts/Player/NickName.cs"
 "Assets/Scripts/Player/PhotonPlayer.cs"
+"Assets/Scripts/Player/Rifle.cs"
 "Assets/Scripts/UI/Alarm.cs"
 "Assets/Scripts/UI/Information.cs"
 -langversion:9.0

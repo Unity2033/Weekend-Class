@@ -25,7 +25,7 @@ public class CameraManager : MonoBehaviour
 
         float cameraRotationX = xRotation * sensitivity;
 
-        currentRotationX -= cameraRotationX;
+        currentRotationX -= cameraRotationX * Time.deltaTime;
 
         currentRotationX = Mathf.Clamp(currentRotationX, -cameraRotationLimit, cameraRotationLimit);
 

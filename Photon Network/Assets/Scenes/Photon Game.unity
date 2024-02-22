@@ -1900,6 +1900,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret Tower
       objectReference: {fileID: 0}
+    - target: {fileID: 1326093064322132, guid: a425124410f363a43adb6788601cc3e0, type: 3}
+      propertyPath: m_TagString
+      value: Turret Tower
+      objectReference: {fileID: 0}
     - target: {fileID: 4939996705135754, guid: a425124410f363a43adb6788601cc3e0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
