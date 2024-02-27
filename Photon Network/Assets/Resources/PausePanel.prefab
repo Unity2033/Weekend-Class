@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 4605487338898292400}
   - component: {fileID: 7805286495320414030}
   - component: {fileID: 7742089350247939102}
+  - component: {fileID: 8924478602334373398}
   m_Layer: 5
   m_Name: PausePanel
   m_TagString: Untagged
@@ -236,6 +237,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &8924478602334373398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271140530650404414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0fccb3b9a67cd479f22fbc08fb7e25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content: {fileID: 0}
 --- !u!1 &1853061587202885467
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,7 +507,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2895261682238346223}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Alarm, Assembly-CSharp
         m_MethodName: Exit
         m_Mode: 1
@@ -626,7 +640,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2895261682238346223}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Alarm, Assembly-CSharp
         m_MethodName: Continue
         m_Mode: 1
@@ -649,7 +663,6 @@ GameObject:
   - component: {fileID: 7802633219470764041}
   - component: {fileID: 3685021435674382722}
   - component: {fileID: 1719873573075264245}
-  - component: {fileID: 2895261682238346223}
   m_Layer: 5
   m_Name: PausePanel
   m_TagString: Untagged
@@ -715,19 +728,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2895261682238346223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5186860827670479271}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0fccb3b9a67cd479f22fbc08fb7e25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  content: {fileID: 0}
 --- !u!1 &7141228740938172200
 GameObject:
   m_ObjectHideFlags: 0

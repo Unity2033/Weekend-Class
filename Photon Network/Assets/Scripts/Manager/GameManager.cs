@@ -3,9 +3,18 @@ using Photon.Pun;
 using Photon.Realtime;
 using System.Collections;
 using TMPro;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviourPunCallbacks
 {
+    private int second;
+    private int minute;
+
+    [SerializeField] float timer;
+    [SerializeField] Text timerText;
+
+    [SerializeField] int playerCount = 3;
+
     [SerializeField] GameObject nickNamePanel;
     [SerializeField] TMP_InputField nickNameInputField;
 
@@ -13,7 +22,12 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         CreatePlayer();
 
-        CheckNickName();     
+        CheckNickName();
+    }
+
+    private void Start()
+    {
+        CheckPlayer();
     }
 
     private void CreatePlayer()
@@ -69,5 +83,39 @@ public class GameManager : MonoBehaviourPunCallbacks
         }
     }
 
+    public void CheckPlayer()
+    {
+        Debug.Log(PhotonNetwork.PlayerList.Length);
 
+        if(PhotonNetwork.PlayerList.Length >= playerCount)
+        {
+            photonView.RPC("RemoteTimer", RpcTarget.All);
+        }
+    }
+
+    [PunRPC]
+    public void RemoteTimer()
+    {
+        StartCoroutine(StartTimer());
+    }
+
+    IEnumerator StartTimer()
+    {
+        while(true)
+        {
+            timer -= Time.deltaTime;
+
+            minute = (int)timer / 60;
+            second = (int)timer % 60;
+
+            timerText.text = minute.ToString("00") + " : " + second.ToString("00");
+
+            yield return null;
+
+            if(timer <= 0)
+            {
+                yield break;
+            }
+        }
+    }
 }

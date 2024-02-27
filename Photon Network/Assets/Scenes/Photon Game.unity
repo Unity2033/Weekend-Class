@@ -3303,6 +3303,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54167da61432a1841aaa5a28d679baad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 70
+  timerText: {fileID: 1981151838}
+  playerCount: 2
   nickNamePanel: {fileID: 1098620763}
   nickNameInputField: {fileID: 1305942666}
 --- !u!4 &2117434200

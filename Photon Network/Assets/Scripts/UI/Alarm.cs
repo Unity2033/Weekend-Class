@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public enum AlarmType
 {
     Alarm,
-    PasuePanel
+    PausePanel
 }
 
 public class Alarm : MonoBehaviourPunCallbacks

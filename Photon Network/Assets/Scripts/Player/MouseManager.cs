@@ -21,7 +21,7 @@ public class MouseManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             SetMouse(MOUSETYPE.FREE);
-            Alarm.Show(AlarmType.PasuePanel);
+            Alarm.Show(AlarmType.PausePanel);
         }
     }
 
