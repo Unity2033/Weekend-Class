@@ -2,180 +2,132 @@
 
 void main()
 {
-#pragma region 조건문
-	// 어떤 조건이 주어질 때 해당 조건에 따라
-	// 동작을 수행하도록 실행하는 명령문입니다.
+#pragma region 반복문
+	// 프로그램 내에서 특정한 작업을 반복적으로
+	// 수행하는 명령문입니다.
 
-#pragma region 관계 연산자
-	// 두 개의 피연산자의 값을 비교하여 그 결과를
-	// 0 또는 1이라는 값으로 나타내는 연산자입니다.
+#pragma region 증감 연산자
+	// 피연산자를 하나씩 증가시키거나 감소시킬 때
+	// 사용하는 연산자입니다.
 
-	// int result = 0;
+	// int attack = 10;
 	// 
-	// result = 10 > 5; // 1
+	// int damage = ++attack;
 	// 
-	// printf("result 변수의 값 : %d\n", result);
+	// printf("damage 변수의 값 : %d\n", damage);
+	// printf("attack 변수의 값 : %d\n", attack);
 	// 
-	// result = 5 < 4;	 // 0
+	// damage = --attack;
 	// 
-	// printf("result 변수의 값 : %d\n", result);
-	// 
-	// result = 5 >= 1; // 1
-	// 
-	// printf("result 변수의 값 : %d\n", result);
-	// 
-	// result = 3 <= 1; // 0
-	// 
-	// printf("result 변수의 값 : %d\n", result);
-	// 
-	// result = 10 == 10; // 1
-	// 
-	// printf("result 변수의 값 : %d\n", result);
-	// 
-	// result = 10 != 10; // 0
-	// 
-	// printf("result 변수의 값 : %d\n", result);
+	// printf("damage 변수의 값 : %d\n", damage);
+	// printf("attack 변수의 값 : %d\n", attack);
 
-	// 관계 연산자는 조건이 맞을 때 1이라는 값으로
-	// 반환하며, 조건이 틀릴 때 0이라는 값으로 반환합니다.
+	// 전위 증감 연산자는 변수의 값을 증감시킨 후에
+	// 연산을 수행하고, 후위 증감 연산자는 연산을
+	// 수행한 다음 변수의 값을 증감시킵니다.
+
+	// int count = 5;
+	// 
+	// int result = count++;
+	// 
+	// printf("result 변수의 값 : %d\n", result);  
+	// printf("count 변수의 값 : %d\n", count);  
+	// 
+	// result = count--;
+	// 
+	// printf("result 변수의 값 : %d\n", result); 
+	// printf("count 변수의 값 : %d\n", count);   
+
+	// 후위 증감 연산자는 연산을 수행한 다음
+	// 변수의 값을 증감시킵니다.
 
 #pragma endregion
 
-#pragma region if문
-	// 어떤 특정한 조건을 비교하여 조건이 맞다면 
-	// 실행되는 명령문입니다.
+#pragma region for문
+	// 초기식을 연산하여 조건식의 결과에 따라 특정한
+	// 횟수만큼 반복하는 반복문입니다.
 
-	//	int count = 5;
+	//	for (int i = 1; i <= 5; i++)
+	//	{
+	//		printf("Warning %d \n", i);
+	//	}
+
+	// for문의 경우 조건이 끝나는 형태와 반대로 초기식을
+	// 연산하게 되면 조건이 일치하지 않아 계속 반복적으로
+	// 실행되는 문제가 발생합니다.
+
+#pragma endregion
+
+#pragma region while문
+	// 특정 조건을 만족할 때까지 계속해서 주어진 
+	// 명령문을 실행하는 반복문입니다.
+
+	//	int energy = 5;
 	//	
-	//	if (count == 5)
+	//	while (energy > 0)
 	//	{
-	//		printf("if문의 조건이 '참'입니다~\n");
+	//		printf("energy의 값 : %d\n", energy);
+	//		energy--;
 	//	}
-	
-	// if문은 조건이 1일 때 실행되며, 0일 때 실행되지 않습니다.
 
+	// while 문의 경우 위에서 아래로 실행되며, 아래에
+	// 있는 명령문의 실행이 다 끝나면 다시 위에 있는
+	// 명령문으로 돌아가서 반복하는 구조입니다.
 #pragma endregion
 
-#pragma region else if문
-	// if문의 조건이 틀릴 때 else if문의 조건이
-	// 맞다면 실행되는 명령문입니다.
+#pragma region do while문
+	// 조건과 상관없이 한 번의 작업을 수행한 다음 
+	// 조건에 따라 명령문을 실행하는 반복문입니다.
 
-	//	int level = 99;
+	//	char alphabet = 'A';
 	//	
-	//	if (level == 81)
+	//	do
 	//	{
-	//		printf("1차 전직\n");
-	//	}
-	//	else if (level >= 99)
-	//	{
-	//		printf("2차 전직\n");
-	//	}
+	//		printf("alphabet 변수의 값 : %c\n", alphabet);
+	//	} 
+	//	while (alphabet == 'B');
+
 #pragma endregion
 
-#pragma region else문
-	// if문과 else if문의 조건이 다 틀리면
-	// 실행되는 명령문입니다.
-	
-	//	int health = 100;
+#pragma region continue문
+	// 해당 조건문만 실행하지 않고, 반복문은 이어서
+	// 실행하는 제어문입니다.
+
+	//	for (int i = 1; i <= 5; i++)
+	//	{
+	//		if (i == 3)
+	//		{
+	//			continue;
+	//		}
 	//	
-	//	if (health <= 0)
-	//	{
-	//		printf("Destroy GameObject\n");
-	//	}
-	//	else if (health == 50)
-	//	{
-	//		printf("Warning\n");
-	//	}
-	//	else
-	//	{
-	//		printf("Exist Game Object");
+	//		printf("i의 값 : %d\n", i);
 	//	}
 
-	// if문에 연결된 모든 조건문의 조건이 같다면
-	// 가장 위에 있는 조건문만 실행됩니다.
+	// 반복문에서 continue문을 만나게 되면 다시
+	// 위에서부터 차례대로 동작합니다.
 #pragma endregion
 
-#pragma region switch문
-	// 어떤 결과에 따라 그 결과부터 실행되는 명령문입니다.
-
-	//	int stage = 1;
+#pragma region 중첩 for문
+ 
+	//	for (int i = 0; i < 3; i++)
+	//	{
+	//		printf("i의 값 : %d\n", i);
 	//	
-	//	switch (stage)
-	//	{
-	//		case 1: printf("타이틀\n");
-	//		case 2: printf("마을\n");
-	//		case 3: printf("던전\n");
-	//		case 4: printf("낚시터\n");
+	//		for (int j = 0; j < 5; j++)
+	//		{
+	//			printf("j의 값 : %d\n", j);
+	//		}
 	//	}
 
-	// switch문의 경우 조건에 해당하는 값에 따라
-	// 조건의 위치로 이동합니다.
-
-	// switch 문은 해당 조건이 완료되었을 때, break
-	// 문이 없으면 나머지 밑에 있는 case 문까지 계속 
-	// 실행시키다가 종료합니다.
-
 #pragma endregion
 
-#pragma region break문
-   // 특정한 지점에서 분기를 탈출하는 제어문입니다.
-
-	//	char grade = 'F';
-	//	
-	//	switch (grade)
-	//	{
-	//		case 'A': printf("A 등급\n");
-	//			break;
-	//		case 'B': printf("B 등급\n");
-	//			break;	
-	//		case 'C': printf("C 등급\n");
-	//			break;	
-	//		case 'D': printf("D 등급\n");
-	//			break;
-	//		default: printf("해당하는 조건의 값이 아닙니다.\n");
-	//			break;
-	//	}
-
-	// switch문에는 조건식으로 실수형 변수와 실수형 상수를
-	// 사용할 수 없습니다.
-#pragma endregion
-
-#pragma region 논리 연산자
-
-   /*
-		int flag = 0; 
-		int damage = 10;
-		char blood = 'O';
-
-		if (damage == 10 && blood == 'O')
-		{
-			   printf("AND 논리 연산자\n");
-		}
-
-		if (damage == 10 || blood == 'B')
-		{
-			   printf("OR 논리 연산자\n");
-		}
-
-		if (!flag)
-		{
-			   printf("NOT 논리 연산자\n");
-		}
-   */
-
-
-#pragma endregion
-
-
+#pragma region 구구단
+     
 
 
 
 #pragma endregion
 
-#pragma region 사분면
-
-int x = 10;
-int y = -5;
 
 
 
